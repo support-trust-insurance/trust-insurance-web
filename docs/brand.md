@@ -35,7 +35,7 @@ Texto blanco sobre naranja ≈ 3,4:1: solo en botones de texto grande y en negri
 ## Patrones (tomados de las referencias)
 
 - Menú flotante en píldora + aviso superior en marquesina (Broworks)
-- Cuadrícula de líneas finas, numeración `/ 01` y cifras animadas (BoostLab, Citadel); en el hero de inicio la cuadrícula es interactiva: los cuadros se encienden en azul (`--blue: #1a5cb0`) al pasar el cursor y se apagan en 2 s (`js/squares.js`); los cuadros bajo el texto y el cotizador no se activan
+- Cuadrícula de líneas finas, numeración `/ 01` y cifras animadas (BoostLab, Citadel); en el hero de inicio la cuadrícula es interactiva: los cuadros se encienden en azul (`--blue: var(--navy)`, el azul de la marca) al pasar el cursor y se apagan en 2 s (`js/squares.js`); los cuadros bajo el texto y el cotizador no se activan
 - Serif con itálica de acento, tarjeta de cotización, pasos (Zenarate)
 - Secciones que alternan color de fondo y bento de servicios (Broworks, Citadel)
 - Carrusel de testimonios, FAQ en acordeón, footer con marca gigante
