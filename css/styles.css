@@ -479,3 +479,14 @@ body.page-contact .mobile-bar { display: none; }
   .mobile-bar a { padding: 12px 6px; font-size: .68rem; letter-spacing: .06em; gap: 6px; }
   .mobile-bar .btn::after { display: none; }
 }
+
+/* Cuadrícula interactiva del hero (efecto BoostLab) */
+.hero { --cell: 88px; --blue: #1a5cb0; }
+.hero.has-squares::before { display: none; }
+.squares { position: absolute; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; mask-image: linear-gradient(180deg, #000 60%, transparent); }
+.squares-row { display: flex; }
+.sq { flex: none; width: var(--cell); height: var(--cell); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background-color: transparent; transition: background-color 2s ease; opacity: 0; animation: sq-in .9s ease-out forwards; animation-delay: calc(var(--r) * .05s + var(--c) * .012s); }
+.sq.lit { background-color: var(--blue); transition: background-color .15s; }
+@keyframes sq-in { from { opacity: 0; transform: scale(.8) translateY(20px); } to { opacity: 1; transform: none; } }
+@media (max-width: 680px) { .hero { --cell: 64px; } }
+@media (prefers-reduced-motion: reduce) { .sq { opacity: 1; } }

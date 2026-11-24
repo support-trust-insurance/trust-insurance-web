@@ -8,6 +8,7 @@ seguro-auto.html · seguro-hogar.html · seguro-comercial.html · seguro-salud.h
 css/styles.css     Sistema de diseño
 js/layout.js       Header, footer e iconos compartidos
 js/main.js         Idioma, menú, animaciones, cotizador y asistente
+js/squares.js      Cuadrícula interactiva del hero de inicio
 assets/            Logos
 tools/pages.py     Genera las páginas internas
 docs/brand.md      Identidad y guía de diseño
