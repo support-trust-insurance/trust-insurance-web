@@ -47,11 +47,11 @@
             '<a href="/seguro-salud"><span class="ico">' + I.health + '</span><span><strong data-en="Health insurance">Seguro de Salud</strong><small data-en="You and your family">Tú y tu familia</small></span></a>' +
           '</div></div>' +
         '<a href="/contacto"' + cur('contacto') + ' data-en="Contact">Contacto</a>' +
-        '<a class="btn nav-cta" href="' + WA + '" data-wa target="_blank" rel="noopener" data-en="Get a quote">Cotizar ahora</a>' +
+        '<a class="btn nav-cta" href="tel:+13054190338" data-en="Get a quote">Cotizar ahora</a>' +
       '</nav>' +
       '<div class="header-actions">' +
         '<button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar idioma / Change language">English</button>' +
-        '<a class="btn btn-sm" href="' + WA + '" data-wa target="_blank" rel="noopener" data-en="Get a quote">Cotizar ahora</a>' +
+        '<a class="btn btn-sm" href="tel:+13054190338" data-en="Get a quote">Cotizar ahora</a>' +
         '<button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menú / Menu"><span></span></button>' +
       '</div>' +
     '</div></div></header>';

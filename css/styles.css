@@ -130,7 +130,7 @@ p { margin: 0 0 1em; }
 .progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--grad); z-index: 100; }
 
 /* Hero */
-.hero { padding: clamp(32px, 5vw, 72px) 0 clamp(72px, 9vw, 128px); overflow: hidden; }
+.hero { padding: clamp(72px, 9vw, 128px) 0 clamp(104px, 12vw, 176px); overflow: hidden; }
 .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
 .hero h1 { margin-bottom: 26px; }
 .hero .lead { margin-bottom: 34px; }

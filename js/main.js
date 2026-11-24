@@ -103,13 +103,8 @@
   if (qf) {
     qf.addEventListener('submit', function (e) {
       e.preventDefault();
-      var zip = qf.zip.value.trim(), err = doc.getElementById('quick-err');
-      if (!/^\d{5}$/.test(zip)) {
-        err.textContent = T('Ingresa un código postal de 5 dígitos.', 'Enter a 5-digit ZIP code.');
-        qf.zip.focus(); return;
-      }
       var tipo = qf.querySelector('input[name=tipo]:checked').value;
-      location.href = '/contacto?tipo=' + encodeURIComponent(tipo) + '&zip=' + encodeURIComponent(zip) + (lang === 'en' ? '&lang=en' : '');
+      location.href = '/contacto?tipo=' + encodeURIComponent(tipo) + (lang === 'en' ? '&lang=en' : '');
     });
   }
 
