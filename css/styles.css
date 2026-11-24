@@ -481,7 +481,7 @@ body.page-contact .mobile-bar { display: none; }
 }
 
 /* Cuadrícula interactiva del hero (efecto BoostLab) */
-.hero { --cell: 88px; --blue: var(--navy); }
+.hero { --cell: 88px; --blue: var(--orange); }
 .hero.has-squares::before { display: none; }
 .squares { position: absolute; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; mask-image: linear-gradient(180deg, #000 70%, rgba(0,0,0,.45)); }
 .squares-row { display: flex; }
